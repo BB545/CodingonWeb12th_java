@@ -78,6 +78,13 @@ public class ArrayListEx {
         }
         System.out.println();
 
+        // 11. 요소 포함 여부 확인
+        System.out.println("요소 확인: " + numbers.contains(7)); // true
+        System.out.println("요소 확인: " + numbers.contains(77)); // false
+
+        // 12. 모든 요소 삭제
+        numbers.clear();
+
         //////////////////////////////////////////////////
         // Student 타입의 ArrayList 생성
         List<Student> students = new ArrayList<>();
