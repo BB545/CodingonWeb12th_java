@@ -4,8 +4,10 @@ public class Practice1 {
     private int width;
     private int height;
 
+    static int count = 0;
     public Practice1(int width) {
         this.width = width;
+        count++;
     }
 
     public int area() {

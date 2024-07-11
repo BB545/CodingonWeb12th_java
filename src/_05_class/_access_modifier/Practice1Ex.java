@@ -29,6 +29,7 @@ public class Practice1Ex {
             System.out.println("-------------------------------");
             Rectangle.remove(0);
         }
+        System.out.println("Rectangle 인스턴스의 개수는: " + Practice1.count);
     }
 
 }
